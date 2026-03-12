@@ -1,0 +1,2723 @@
+{
+    "stage1_spider": {
+        "label": "Spider log files",
+        "icon": "fa-spider",
+        "color": "text-blue-400",
+        "bg": "bg-[#060b19]",
+        "border": "border-blue-900/50",
+        "desc": "**Phase 1: Analysis (Spider Logs)**\n\nMapping data flows spanning multiple legacy databases. \n\nThis invokes the Appraiser as **Medium/Heavy** depending on the spider depth. It will engage the *FinderAgent* inside the Assembly node for data discovery.",
+        "payload": {
+            "a2a_stage": "1: ANALYSIS",
+            "mcp_intent": "Spider legacy MSSQL Server logs identifying pricing table relations",
+            "context": {
+                "source": "DB_Server_04",
+                "target_schemas": [
+                    "dbo.Pricing",
+                    "dbo.Tiers"
+                ]
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 1 spider mandate.",
+                "Hash: p1_spider_88f"
+            ],
+            "c2": [
+                "Appraising depth... 4 schemas.",
+                "TIER: MEDIUM"
+            ],
+            "c3": [
+                "Planner: Assigning FinderAgent.",
+                "Registry: Schema mapping missing."
+            ],
+            "c5": [
+                "Generating spider logic AST.",
+                "Writing connection string stubs."
+            ],
+            "c6": [
+                "Envelope active. Blocking external outbound.",
+                "Allowing strictly defined DB internal ping."
+            ],
+            "c10": [
+                "Medium Tier => Bypass full HITL.",
+                "(Auto-Authorized by Policy)"
+            ],
+            "c8": [
+                "Virtualizing DB ping...",
+                "Trial 1 [Pass]"
+            ],
+            "c7": [
+                "Caching new spider routine.",
+                "Returning mapped output."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating AST routine.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    }
+                ],
+                "pan": -1000
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 1: Analysis validated."
+        }
+    },
+    "stage1_db": {
+        "label": "Database discovery",
+        "icon": "fa-database",
+        "color": "text-blue-400",
+        "bg": "bg-[#060b19]",
+        "border": "border-blue-900/50",
+        "desc": "**Phase 1: Analysis (Spider Logs)**\n\nMapping data flows spanning multiple legacy databases. \n\nThis invokes the Appraiser as **Medium/Heavy** depending on the spider depth. It will engage the *FinderAgent* inside the Assembly node for data discovery.",
+        "payload": {
+            "a2a_stage": "1: ANALYSIS",
+            "mcp_intent": "Identify all downstream dependent tables connected to user accounts",
+            "context": {
+                "source": "DB_Server_04",
+                "target_schemas": [
+                    "dbo.Pricing",
+                    "dbo.Tiers"
+                ]
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 1 spider mandate.",
+                "Hash: p1_spider_88f"
+            ],
+            "c2": [
+                "Appraising depth... 4 schemas.",
+                "TIER: MEDIUM"
+            ],
+            "c3": [
+                "Planner: Assigning FinderAgent.",
+                "Registry: Schema mapping missing."
+            ],
+            "c5": [
+                "Generating spider logic AST.",
+                "Writing connection string stubs."
+            ],
+            "c6": [
+                "Envelope active. Blocking external outbound.",
+                "Allowing strictly defined DB internal ping."
+            ],
+            "c10": [
+                "Medium Tier => Bypass full HITL.",
+                "(Auto-Authorized by Policy)"
+            ],
+            "c8": [
+                "Virtualizing DB ping...",
+                "Trial 1 [Pass]"
+            ],
+            "c7": [
+                "Caching new spider routine.",
+                "Returning mapped output."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating AST routine.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    }
+                ],
+                "pan": -1000
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 1: Analysis validated."
+        }
+    },
+    "stage1_net": {
+        "label": "Network crawler",
+        "icon": "fa-network-wired",
+        "color": "text-blue-400",
+        "bg": "bg-[#060b19]",
+        "border": "border-blue-900/50",
+        "desc": "**Phase 1: Analysis (Spider Logs)**\n\nMapping data flows spanning multiple legacy databases. \n\nThis invokes the Appraiser as **Medium/Heavy** depending on the spider depth. It will engage the *FinderAgent* inside the Assembly node for data discovery.",
+        "payload": {
+            "a2a_stage": "1: ANALYSIS",
+            "mcp_intent": "Crawl active IP subnets to identify rogue API endpoints",
+            "context": {
+                "source": "DB_Server_04",
+                "target_schemas": [
+                    "dbo.Pricing",
+                    "dbo.Tiers"
+                ]
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 1 spider mandate.",
+                "Hash: p1_spider_88f"
+            ],
+            "c2": [
+                "Appraising depth... 4 schemas.",
+                "TIER: MEDIUM"
+            ],
+            "c3": [
+                "Planner: Assigning FinderAgent.",
+                "Registry: Schema mapping missing."
+            ],
+            "c5": [
+                "Generating spider logic AST.",
+                "Writing connection string stubs."
+            ],
+            "c6": [
+                "Envelope active. Blocking external outbound.",
+                "Allowing strictly defined DB internal ping."
+            ],
+            "c10": [
+                "Medium Tier => Bypass full HITL.",
+                "(Auto-Authorized by Policy)"
+            ],
+            "c8": [
+                "Virtualizing DB ping...",
+                "Trial 1 [Pass]"
+            ],
+            "c7": [
+                "Caching new spider routine.",
+                "Returning mapped output."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating AST routine.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    }
+                ],
+                "pan": -1000
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 1: Analysis validated."
+        }
+    },
+    "stage1_code": {
+        "label": "CODE Interpreter",
+        "icon": "fa-code",
+        "color": "text-blue-400",
+        "bg": "bg-[#060b19]",
+        "border": "border-blue-900/50",
+        "desc": "**Phase 1: Analysis (Spider Logs)**\n\nMapping data flows spanning multiple legacy databases. \n\nThis invokes the Appraiser as **Medium/Heavy** depending on the spider depth. It will engage the *FinderAgent* inside the Assembly node for data discovery.",
+        "payload": {
+            "a2a_stage": "1: ANALYSIS",
+            "mcp_intent": "Reverse engineer undocumented obfuscated C# libraries in Bridge_STA",
+            "context": {
+                "source": "DB_Server_04",
+                "target_schemas": [
+                    "dbo.Pricing",
+                    "dbo.Tiers"
+                ]
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 1 spider mandate.",
+                "Hash: p1_spider_88f"
+            ],
+            "c2": [
+                "Appraising depth... 4 schemas.",
+                "TIER: MEDIUM"
+            ],
+            "c3": [
+                "Planner: Assigning FinderAgent.",
+                "Registry: Schema mapping missing."
+            ],
+            "c5": [
+                "Generating spider logic AST.",
+                "Writing connection string stubs."
+            ],
+            "c6": [
+                "Envelope active. Blocking external outbound.",
+                "Allowing strictly defined DB internal ping."
+            ],
+            "c10": [
+                "Medium Tier => Bypass full HITL.",
+                "(Auto-Authorized by Policy)"
+            ],
+            "c8": [
+                "Virtualizing DB ping...",
+                "Trial 1 [Pass]"
+            ],
+            "c7": [
+                "Caching new spider routine.",
+                "Returning mapped output."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating AST routine.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    }
+                ],
+                "pan": -1000
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 1: Analysis validated."
+        }
+    },
+    "stage2_a": {
+        "label": "Generate React Component",
+        "icon": "fa-microchip",
+        "color": "text-purple-400",
+        "bg": "bg-[#0a0614]",
+        "border": "border-purple-900/50",
+        "desc": "**Phase 2: Synthesis (Generate Specs)**\n\nTranslating spidered structural data into abstract specifications.\n\nThis maps directly to code generation. The CodegenAgent translates MSSQL relationships into a comprehensive GraphQL schema declaration.",
+        "payload": {
+            "a2a_stage": "2: SYNTHESIS",
+            "mcp_intent": "Synthesize MSSQL Pricing schema into GraphQL Type Definitions",
+            "context": {
+                "source": "A2A_Phase_1_Output",
+                "target_format": "GraphQL SDL"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 2 synthesis mandate.",
+                "Hash: p2_synth_99a"
+            ],
+            "c2": [
+                "Appraising structural complexity.",
+                "TIER: HEAVY"
+            ],
+            "c3": [
+                "Planner: Decomposing type generation.",
+                "Registry: Cache Miss."
+            ],
+            "c5": [
+                "CodegenAgent initialized.",
+                "Writing GraphQL Types and Resolvers.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Validating schema constraints.",
+                "Isolating from main branch."
+            ],
+            "c10": [
+                "Complexity threshold requires HITL.",
+                "Awaiting Architect Approval."
+            ],
+            "c8": [
+                "Virtualizing GQL endpoint...",
+                "Mock Queries [Pass]"
+            ],
+            "c7": [
+                "Caching new schema.",
+                "Returning spec artifact."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen translating DB to GQL.",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "warning"
+                    }
+                ]
+            },
+            {
+                "message": "7) H.I.T.L: Pausing sequence for human authorization.",
+                "msgClass": "text-yellow-400",
+                "sleep": 600,
+                "pan": -700
+            },
+            {
+                "node": "c10",
+                "action": "hitl_wait",
+                "onApprove": {
+                    "message": "   > GQL SCHEMA APPROVED BY ADMIN.",
+                    "msgClass": "text-emerald-400 font-bold",
+                    "paths": [
+                        {
+                            "id": "l_6_10",
+                            "state": "success"
+                        },
+                        {
+                            "id": "l_10_8",
+                            "state": "active"
+                        }
+                    ],
+                    "pan": -1000
+                },
+                "onReject": {
+                    "message": "   > SCHEMA REJECTED.",
+                    "msgClass": "text-rose-500 font-bold",
+                    "statusBoxHTML": "<i class='fa-solid fa-ban text-4xl text-rose-500 mb-2'></i><br>PIPELINE ABORTED",
+                    "statusBoxClass": "border border-rose-900/50 bg-[#12050b] rounded flex flex-col items-center justify-center p-4 shadow-lg text-rose-500 text-[10px] font-mono h-24"
+                }
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 2: Synthesis validated."
+        }
+    },
+    "stage2_b": {
+        "label": "Create MSSQL Migration",
+        "icon": "fa-database",
+        "color": "text-purple-400",
+        "bg": "bg-[#0a0614]",
+        "border": "border-purple-900/50",
+        "desc": "**Phase 2: Synthesis (Generate Specs)**\n\nTranslating spidered structural data into abstract specifications.\n\nThis maps directly to code generation. The CodegenAgent translates MSSQL relationships into a comprehensive GraphQL schema declaration.",
+        "payload": {
+            "a2a_stage": "2: SYNTHESIS",
+            "mcp_intent": "Synthesize MSSQL Pricing schema into GraphQL Type Definitions",
+            "context": {
+                "goal": "Add 5 tables for Identity RBAC"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 2 synthesis mandate.",
+                "Hash: p2_synth_99a"
+            ],
+            "c2": [
+                "Appraising structural complexity.",
+                "TIER: HEAVY"
+            ],
+            "c3": [
+                "Planner: Decomposing type generation.",
+                "Registry: Cache Miss."
+            ],
+            "c5": [
+                "CodegenAgent initialized.",
+                "Writing GraphQL Types and Resolvers.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Validating schema constraints.",
+                "Isolating from main branch."
+            ],
+            "c10": [
+                "Complexity threshold requires HITL.",
+                "Awaiting Architect Approval."
+            ],
+            "c8": [
+                "Virtualizing GQL endpoint...",
+                "Mock Queries [Pass]"
+            ],
+            "c7": [
+                "Caching new schema.",
+                "Returning spec artifact."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen translating DB to GQL.",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "warning"
+                    }
+                ]
+            },
+            {
+                "message": "7) H.I.T.L: Pausing sequence for human authorization.",
+                "msgClass": "text-yellow-400",
+                "sleep": 600,
+                "pan": -700
+            },
+            {
+                "node": "c10",
+                "action": "hitl_wait",
+                "onApprove": {
+                    "message": "   > GQL SCHEMA APPROVED BY ADMIN.",
+                    "msgClass": "text-emerald-400 font-bold",
+                    "paths": [
+                        {
+                            "id": "l_6_10",
+                            "state": "success"
+                        },
+                        {
+                            "id": "l_10_8",
+                            "state": "active"
+                        }
+                    ],
+                    "pan": -1000
+                },
+                "onReject": {
+                    "message": "   > SCHEMA REJECTED.",
+                    "msgClass": "text-rose-500 font-bold",
+                    "statusBoxHTML": "<i class='fa-solid fa-ban text-4xl text-rose-500 mb-2'></i><br>PIPELINE ABORTED",
+                    "statusBoxClass": "border border-rose-900/50 bg-[#12050b] rounded flex flex-col items-center justify-center p-4 shadow-lg text-rose-500 text-[10px] font-mono h-24"
+                }
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 2: Synthesis validated."
+        }
+    },
+    "stage3_a": {
+        "label": "Unit Test Generation",
+        "icon": "fa-vial",
+        "color": "text-yellow-500",
+        "bg": "bg-[#110d05]",
+        "border": "border-yellow-900",
+        "desc": "**Phase 3: Transformation (Conflict Res)**\n\nA direct conflict in business logic (e.g. SCAPA mismatches or inheritance errors).\n\nThis forces a hard **Cache Miss** and invokes intense Codegen iteration, escalating directly to a mandatory **HITL Intervention** per operations safety rules.",
+        "payload": {
+            "a2a_stage": "3: SANDBOX",
+            "mcp_intent": "Generate unit tests for auth module",
+            "context": {
+                "system_source": "SCAPA Automation Controller",
+                "hierarchy_error": "SubTier_missing_parent"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 3 transformation mandate.",
+                "Hash: p3_trans_22a"
+            ],
+            "c2": [
+                "Conflict detected.",
+                "TIER: HEAVY"
+            ],
+            "c3": [
+                "Planner decomposing constraint resolution.",
+                "Registry: Cache Miss."
+            ],
+            "c5": [
+                "CodegenAgent initialized.",
+                "Writing logic to bridge Parent/Child.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Envelope encapsulating new logic...",
+                "Strict isolation applied."
+            ],
+            "c10": [
+                "SANITY CHECK THRESHOLD MET.",
+                "Requires Manual Authorization."
+            ],
+            "c8": [
+                "Data virtualization: running 100 trials.",
+                "Memory leaks: 0. Exceptions: 0.",
+                "Pass."
+            ],
+            "c7": [
+                "Committing newly written SCAPA Transformer.",
+                "Emitting final API POST."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating AST routine.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "warning"
+                    }
+                ]
+            },
+            {
+                "message": "7) H.I.T.L: Pausing sequence for human authorization.",
+                "msgClass": "text-yellow-400",
+                "sleep": 600,
+                "pan": -700
+            },
+            {
+                "node": "c10",
+                "action": "hitl_wait",
+                "onApprove": {
+                    "message": "   > LOGIC APPROVED BY ADMIN.",
+                    "msgClass": "text-emerald-400 font-bold",
+                    "paths": [
+                        {
+                            "id": "l_6_10",
+                            "state": "success"
+                        },
+                        {
+                            "id": "l_10_8",
+                            "state": "active"
+                        }
+                    ],
+                    "pan": -1000
+                },
+                "onReject": {
+                    "message": "   > ACTION ABORTED BY SYSTEM ADMIN.",
+                    "msgClass": "text-rose-500 font-bold",
+                    "statusBoxHTML": "<i class='fa-solid fa-ban text-4xl text-rose-500 mb-2'></i><br>PIPELINE ABORTED",
+                    "statusBoxClass": "border border-rose-900/50 bg-[#12050b] rounded flex flex-col items-center justify-center p-4 shadow-lg text-rose-500 text-[10px] font-mono h-24"
+                }
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 3: Transformation validated."
+        }
+    },
+    "stage3_b": {
+        "label": "Security Sandbox Scan",
+        "icon": "fa-shield-halved",
+        "color": "text-yellow-500",
+        "bg": "bg-[#110d05]",
+        "border": "border-yellow-900",
+        "desc": "**Phase 3: Transformation (Conflict Res)**\n\nA direct conflict in business logic (e.g. SCAPA mismatches or inheritance errors).\n\nThis forces a hard **Cache Miss** and invokes intense Codegen iteration, escalating directly to a mandatory **HITL Intervention** per operations safety rules.",
+        "payload": {
+            "a2a_stage": "3: SANDBOX",
+            "mcp_intent": "Scan simulated payload for OWASP vulnerabilities",
+            "context": {
+                "system_source": "SCAPA Automation Controller",
+                "hierarchy_error": "SubTier_missing_parent"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 3 transformation mandate.",
+                "Hash: p3_trans_22a"
+            ],
+            "c2": [
+                "Conflict detected.",
+                "TIER: HEAVY"
+            ],
+            "c3": [
+                "Planner decomposing constraint resolution.",
+                "Registry: Cache Miss."
+            ],
+            "c5": [
+                "CodegenAgent initialized.",
+                "Writing logic to bridge Parent/Child.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Envelope encapsulating new logic...",
+                "Strict isolation applied."
+            ],
+            "c10": [
+                "SANITY CHECK THRESHOLD MET.",
+                "Requires Manual Authorization."
+            ],
+            "c8": [
+                "Data virtualization: running 100 trials.",
+                "Memory leaks: 0. Exceptions: 0.",
+                "Pass."
+            ],
+            "c7": [
+                "Committing newly written SCAPA Transformer.",
+                "Emitting final API POST."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating AST routine.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "warning"
+                    }
+                ]
+            },
+            {
+                "message": "7) H.I.T.L: Pausing sequence for human authorization.",
+                "msgClass": "text-yellow-400",
+                "sleep": 600,
+                "pan": -700
+            },
+            {
+                "node": "c10",
+                "action": "hitl_wait",
+                "onApprove": {
+                    "message": "   > LOGIC APPROVED BY ADMIN.",
+                    "msgClass": "text-emerald-400 font-bold",
+                    "paths": [
+                        {
+                            "id": "l_6_10",
+                            "state": "success"
+                        },
+                        {
+                            "id": "l_10_8",
+                            "state": "active"
+                        }
+                    ],
+                    "pan": -1000
+                },
+                "onReject": {
+                    "message": "   > ACTION ABORTED BY SYSTEM ADMIN.",
+                    "msgClass": "text-rose-500 font-bold",
+                    "statusBoxHTML": "<i class='fa-solid fa-ban text-4xl text-rose-500 mb-2'></i><br>PIPELINE ABORTED",
+                    "statusBoxClass": "border border-rose-900/50 bg-[#12050b] rounded flex flex-col items-center justify-center p-4 shadow-lg text-rose-500 text-[10px] font-mono h-24"
+                }
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 3: Transformation validated."
+        }
+    },
+    "stage4_a": {
+        "label": "Cache Layer Injection",
+        "icon": "fa-bolt",
+        "color": "text-orange-400",
+        "bg": "bg-[#140a05]",
+        "border": "border-orange-900/50",
+        "desc": "**Phase 4: Integration (Webhooks)**\n\nConnecting external SaaS applications into internal event buses.\n\nThe system finds a known webhook integration pattern, meaning it handles this as a **Light** task using verified cache logic.",
+        "payload": {
+            "a2a_stage": "4: OPTIMIZATION",
+            "mcp_intent": "Inject Redis caching wrappers around heavy SQL queries",
+            "context": {
+                "source": "Stripe_API",
+                "target_event_bus": "Kafka_Topic_Billing"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 4 integration mandate.",
+                "Hash: p4_int_44c"
+            ],
+            "c2": [
+                "Appraising integration pattern.",
+                "TIER: LIGHT"
+            ],
+            "c3": [
+                "Planner fetching webhook handlers.",
+                "Registry: CACHE HIT (Routine Stripe_Kafka)."
+            ],
+            "c8": [
+                "Virtualization skipped for known safe route.",
+                "Piping direct to Telemetry Bus."
+            ],
+            "c7": [
+                "Operation Complete.",
+                "State Event Fired."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE HIT.",
+                "msgClass": "text-emerald-400",
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 400,
+                "pan": -800
+            },
+            {
+                "sleep": 1000,
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize skipped for known safe route.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Sequence complete. Broadcast Telemetry.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "CACHE_HIT",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 4: Integration validated."
+        }
+    },
+    "stage4_b": {
+        "label": "Bundle Minification",
+        "icon": "fa-compress",
+        "color": "text-orange-400",
+        "bg": "bg-[#140a05]",
+        "border": "border-orange-900/50",
+        "desc": "**Phase 4: Integration (Webhooks)**\n\nConnecting external SaaS applications into internal event buses.\n\nThe system finds a known webhook integration pattern, meaning it handles this as a **Light** task using verified cache logic.",
+        "payload": {
+            "a2a_stage": "4: OPTIMIZATION",
+            "mcp_intent": "Minify output scripts and purge dead CSS",
+            "context": {
+                "source": "Stripe_API",
+                "target_event_bus": "Kafka_Topic_Billing"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 4 integration mandate.",
+                "Hash: p4_int_44c"
+            ],
+            "c2": [
+                "Appraising integration pattern.",
+                "TIER: LIGHT"
+            ],
+            "c3": [
+                "Planner fetching webhook handlers.",
+                "Registry: CACHE HIT (Routine Stripe_Kafka)."
+            ],
+            "c8": [
+                "Virtualization skipped for known safe route.",
+                "Piping direct to Telemetry Bus."
+            ],
+            "c7": [
+                "Operation Complete.",
+                "State Event Fired."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE HIT.",
+                "msgClass": "text-emerald-400",
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 400,
+                "pan": -800
+            },
+            {
+                "sleep": 1000,
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize skipped for known safe route.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Sequence complete. Broadcast Telemetry.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "CACHE_HIT",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 4: Integration validated."
+        }
+    },
+    "stage5_a": {
+        "label": "Semantic Version Bump",
+        "icon": "fa-code-branch",
+        "color": "text-orange-400",
+        "bg": "bg-[#140a05]",
+        "border": "border-orange-900/50",
+        "desc": "**Phase 4: Integration (Webhooks)**\n\nConnecting external SaaS applications into internal event buses.\n\nThe system finds a known webhook integration pattern, meaning it handles this as a **Light** task using verified cache logic.",
+        "payload": {
+            "a2a_stage": "5: PACKAGING",
+            "mcp_intent": "Bump package.json version based on AST diffs (Minor)",
+            "context": {
+                "source": "Stripe_API",
+                "target_event_bus": "Kafka_Topic_Billing"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 4 integration mandate.",
+                "Hash: p4_int_44c"
+            ],
+            "c2": [
+                "Appraising integration pattern.",
+                "TIER: LIGHT"
+            ],
+            "c3": [
+                "Planner fetching webhook handlers.",
+                "Registry: CACHE HIT (Routine Stripe_Kafka)."
+            ],
+            "c8": [
+                "Virtualization skipped for known safe route.",
+                "Piping direct to Telemetry Bus."
+            ],
+            "c7": [
+                "Operation Complete.",
+                "State Event Fired."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE HIT.",
+                "msgClass": "text-emerald-400",
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 400,
+                "pan": -800
+            },
+            {
+                "sleep": 1000,
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize skipped for known safe route.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Sequence complete. Broadcast Telemetry.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "CACHE_HIT",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 4: Integration validated."
+        }
+    },
+    "stage5_b": {
+        "label": "Docker Container Build",
+        "icon": "fa-box",
+        "color": "text-orange-400",
+        "bg": "bg-[#140a05]",
+        "border": "border-orange-900/50",
+        "desc": "**Phase 4: Integration (Webhooks)**\n\nConnecting external SaaS applications into internal event buses.\n\nThe system finds a known webhook integration pattern, meaning it handles this as a **Light** task using verified cache logic.",
+        "payload": {
+            "a2a_stage": "5: PACKAGING",
+            "mcp_intent": "Package staging build into immutable container image",
+            "context": {
+                "source": "Stripe_API",
+                "target_event_bus": "Kafka_Topic_Billing"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 4 integration mandate.",
+                "Hash: p4_int_44c"
+            ],
+            "c2": [
+                "Appraising integration pattern.",
+                "TIER: LIGHT"
+            ],
+            "c3": [
+                "Planner fetching webhook handlers.",
+                "Registry: CACHE HIT (Routine Stripe_Kafka)."
+            ],
+            "c8": [
+                "Virtualization skipped for known safe route.",
+                "Piping direct to Telemetry Bus."
+            ],
+            "c7": [
+                "Operation Complete.",
+                "State Event Fired."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE HIT.",
+                "msgClass": "text-emerald-400",
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 400,
+                "pan": -800
+            },
+            {
+                "sleep": 1000,
+                "paths": [
+                    {
+                        "id": "l_hit",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize skipped for known safe route.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Sequence complete. Broadcast Telemetry.",
+                "sleep": 600,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "CACHE_HIT",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 4: Integration validated."
+        }
+    },
+    "stage6_a": {
+        "label": "Staging Canary Deploy",
+        "icon": "fa-dove",
+        "color": "text-pink-400",
+        "bg": "bg-[#140510]",
+        "border": "border-pink-900/50",
+        "desc": "**Phase 6: Testing (Mocks & Synthetic edge cases)**\n\nAutomatically generating hundreds of synthetic edge cases against a newly updated application tier to ensure absolute regression stability.",
+        "payload": {
+            "a2a_stage": "6: DEPLOYMENT",
+            "mcp_intent": "Route 5% of traffic to new microservice container",
+            "context": {
+                "target": "Auth_Service_v2",
+                "coverage_goal": "98%"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 6 testing mandate.",
+                "Hash: p6_test_77x"
+            ],
+            "c2": [
+                "Appraising regression scope.",
+                "TIER: MEDIUM"
+            ],
+            "c3": [
+                "Planner extracting API interfaces.",
+                "Registry: Cache Miss (New endpoints)."
+            ],
+            "c5": [
+                "CodegenAgent mutating parameters.",
+                "Generating 5,000 synthetic test JSON blocks.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Isolating testing zone...",
+                "Strict containerization applied."
+            ],
+            "c10": [
+                "Sanity check autorisks.",
+                "Policy allows auto-deploy to dev."
+            ],
+            "c8": [
+                "Virtualizing tests...",
+                "4,996 [Pass], 4 [Muted]."
+            ],
+            "c7": [
+                "Logging test artifacts.",
+                "Returning coverage status."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen spawning test mutants.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing test environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    }
+                ],
+                "pan": -1000
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Hammering target with fuzzers...",
+                "sleep": 2000,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Reporting findings.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 6: Testing validated."
+        }
+    },
+    "stage6_b": {
+        "label": "Kubernetes Rollout",
+        "icon": "fa-server",
+        "color": "text-pink-400",
+        "bg": "bg-[#140510]",
+        "border": "border-pink-900/50",
+        "desc": "**Phase 6: Testing (Mocks & Synthetic edge cases)**\n\nAutomatically generating hundreds of synthetic edge cases against a newly updated application tier to ensure absolute regression stability.",
+        "payload": {
+            "a2a_stage": "6: DEPLOYMENT",
+            "mcp_intent": "Full rollout to production cluster nodes",
+            "context": {
+                "target": "Auth_Service_v2",
+                "coverage_goal": "98%"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 6 testing mandate.",
+                "Hash: p6_test_77x"
+            ],
+            "c2": [
+                "Appraising regression scope.",
+                "TIER: MEDIUM"
+            ],
+            "c3": [
+                "Planner extracting API interfaces.",
+                "Registry: Cache Miss (New endpoints)."
+            ],
+            "c5": [
+                "CodegenAgent mutating parameters.",
+                "Generating 5,000 synthetic test JSON blocks.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Isolating testing zone...",
+                "Strict containerization applied."
+            ],
+            "c10": [
+                "Sanity check autorisks.",
+                "Policy allows auto-deploy to dev."
+            ],
+            "c8": [
+                "Virtualizing tests...",
+                "4,996 [Pass], 4 [Muted]."
+            ],
+            "c7": [
+                "Logging test artifacts.",
+                "Returning coverage status."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen spawning test mutants.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing test environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    }
+                ],
+                "pan": -1000
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Hammering target with fuzzers...",
+                "sleep": 2000,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Reporting findings.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 6: Testing validated."
+        }
+    },
+    "stage7_a": {
+        "label": "Log Ingestion Config",
+        "icon": "fa-chart-line",
+        "color": "text-red-500",
+        "bg": "bg-[#140303]",
+        "border": "border-red-900/50",
+        "desc": "**Phase 7: Security (Triaging vulnerabilities)**\n\nA critical zero-day has been detected in a node package. BRANIAC must construct a patch to downgrade safely without breaking dependency trees.",
+        "payload": {
+            "a2a_stage": "7: MONITORING",
+            "mcp_intent": "Attach Datadog agents to newly spun Kubernetes pods",
+            "context": {
+                "target": "Enterprise_API_Gateway",
+                "severity": "CRITICAL"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 7 security mandate.",
+                "Hash: p7_sec_alert"
+            ],
+            "c2": [
+                "Appraising CVE blast radius.",
+                "TIER: HEAVY"
+            ],
+            "c3": [
+                "Planner finding rollback paths.",
+                "Registry: Cache Miss."
+            ],
+            "c5": [
+                "CodegenAgent initialized.",
+                "Downgrading package and resolving graph conflicts.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Locking deploy pipeline...",
+                "Executing deep isolation."
+            ],
+            "c10": [
+                "CRITICAL PRODUCTION ALTERATION.",
+                "Requires Manual Authorization."
+            ],
+            "c8": [
+                "Virtualizing rollback...",
+                "Pass."
+            ],
+            "c7": [
+                "Committing patch.",
+                "Emitting Security Alert Update."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating downgrade patch.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "warning"
+                    }
+                ]
+            },
+            {
+                "message": "7) H.I.T.L: Pausing sequence for SEC-OPS authorization.",
+                "msgClass": "text-yellow-400",
+                "sleep": 600,
+                "pan": -700
+            },
+            {
+                "node": "c10",
+                "action": "hitl_wait",
+                "onApprove": {
+                    "message": "   > PATCH APPROVED BY SECOPS.",
+                    "msgClass": "text-emerald-400 font-bold",
+                    "paths": [
+                        {
+                            "id": "l_6_10",
+                            "state": "success"
+                        },
+                        {
+                            "id": "l_10_8",
+                            "state": "active"
+                        }
+                    ],
+                    "pan": -1000
+                },
+                "onReject": {
+                    "message": "   > PATCH ABORTED.",
+                    "msgClass": "text-rose-500 font-bold",
+                    "statusBoxHTML": "<i class='fa-solid fa-ban text-4xl text-rose-500 mb-2'></i><br>PIPELINE ABORTED",
+                    "statusBoxClass": "border border-rose-900/50 bg-[#12050b] rounded flex flex-col items-center justify-center p-4 shadow-lg text-rose-500 text-[10px] font-mono h-24"
+                }
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 7: Security validated."
+        }
+    },
+    "stage7_b": {
+        "label": "Drift Detection Sync",
+        "icon": "fa-satellite-dish",
+        "color": "text-red-500",
+        "bg": "bg-[#140303]",
+        "border": "border-red-900/50",
+        "desc": "**Phase 7: Security (Triaging vulnerabilities)**\n\nA critical zero-day has been detected in a node package. BRANIAC must construct a patch to downgrade safely without breaking dependency trees.",
+        "payload": {
+            "a2a_stage": "7: MONITORING",
+            "mcp_intent": "Compare live DB schema vs source of truth definitions",
+            "context": {
+                "target": "Enterprise_API_Gateway",
+                "severity": "CRITICAL"
+            }
+        },
+        "executionLines": {
+            "c1": [
+                "Intake Phase 7 security mandate.",
+                "Hash: p7_sec_alert"
+            ],
+            "c2": [
+                "Appraising CVE blast radius.",
+                "TIER: HEAVY"
+            ],
+            "c3": [
+                "Planner finding rollback paths.",
+                "Registry: Cache Miss."
+            ],
+            "c5": [
+                "CodegenAgent initialized.",
+                "Downgrading package and resolving graph conflicts.",
+                "AST Generated."
+            ],
+            "c6": [
+                "Locking deploy pipeline...",
+                "Executing deep isolation."
+            ],
+            "c10": [
+                "CRITICAL PRODUCTION ALTERATION.",
+                "Requires Manual Authorization."
+            ],
+            "c8": [
+                "Virtualizing rollback...",
+                "Pass."
+            ],
+            "c7": [
+                "Committing patch.",
+                "Emitting Security Alert Update."
+            ]
+        },
+        "engine_sequence": [
+            {
+                "node": "c1",
+                "message": "1) Smart Queue: Serializing MCP intent.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "active"
+                    }
+                ]
+            },
+            {
+                "node": "c2",
+                "message": "2) Appraiser evaluating payload complexity tier.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_1_2",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_2_3",
+                        "state": "active"
+                    }
+                ],
+                "pan": 0
+            },
+            {
+                "node": "c3",
+                "message": "3) Planner invoking Registry search...",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_2_3",
+                        "state": "success"
+                    }
+                ]
+            },
+            {
+                "message": "4) Registry: CACHE GAP.",
+                "msgClass": "text-amber-400",
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "active"
+                    }
+                ],
+                "sleep": 600,
+                "pan": -200
+            },
+            {
+                "node": "c5",
+                "message": "5) Codegen generating downgrade patch.",
+                "sleep": 1200,
+                "paths": [
+                    {
+                        "id": "l_3_5",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_5_6",
+                        "state": "active"
+                    }
+                ],
+                "pan": -400
+            },
+            {
+                "node": "c6",
+                "message": "6) Guardrail: Securing environment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_5_6",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_6_10",
+                        "state": "warning"
+                    }
+                ]
+            },
+            {
+                "message": "7) H.I.T.L: Pausing sequence for SEC-OPS authorization.",
+                "msgClass": "text-yellow-400",
+                "sleep": 600,
+                "pan": -700
+            },
+            {
+                "node": "c10",
+                "action": "hitl_wait",
+                "onApprove": {
+                    "message": "   > PATCH APPROVED BY SECOPS.",
+                    "msgClass": "text-emerald-400 font-bold",
+                    "paths": [
+                        {
+                            "id": "l_6_10",
+                            "state": "success"
+                        },
+                        {
+                            "id": "l_10_8",
+                            "state": "active"
+                        }
+                    ],
+                    "pan": -1000
+                },
+                "onReject": {
+                    "message": "   > PATCH ABORTED.",
+                    "msgClass": "text-rose-500 font-bold",
+                    "statusBoxHTML": "<i class='fa-solid fa-ban text-4xl text-rose-500 mb-2'></i><br>PIPELINE ABORTED",
+                    "statusBoxClass": "border border-rose-900/50 bg-[#12050b] rounded flex flex-col items-center justify-center p-4 shadow-lg text-rose-500 text-[10px] font-mono h-24"
+                }
+            },
+            {
+                "node": "c8",
+                "message": "8) Virtualize: Emulating target pipeline...",
+                "sleep": 1500,
+                "paths": [
+                    {
+                        "id": "l_10_8",
+                        "state": "success"
+                    },
+                    {
+                        "id": "l_8_7",
+                        "state": "active"
+                    }
+                ],
+                "pan": -1400
+            },
+            {
+                "node": "c7",
+                "message": "7/9) Final deployment.",
+                "sleep": 800,
+                "paths": [
+                    {
+                        "id": "l_8_7",
+                        "state": "success"
+                    }
+                ]
+            }
+        ],
+        "final_output": {
+            "mcr_resolution": "AST_GENERATED",
+            "output_state": "SUCCESS",
+            "system_event": "A2A Phase 7: Security validated."
+        }
+    }
+}

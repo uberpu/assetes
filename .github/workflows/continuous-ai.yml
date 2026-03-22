@@ -87,6 +87,14 @@ jobs:
       - name: Phase 3 - Generate Documentation
         run: python scripts/generate_docs.py
 
+      - name: Phase 4 - Export AI Brain for Web
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: python scripts/export_model.py
+
       - name: Save Database State
         env:
           PGHOST: localhost

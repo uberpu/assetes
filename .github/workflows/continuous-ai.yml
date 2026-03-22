@@ -1,0 +1,110 @@
+name: Continuous AI Pipeline
+
+on:
+  push:
+    paths:
+      - 'GAMERULES.md'
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  continuous-ai-cycle:
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: postgres
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install -r projects/shared/requirements.txt
+
+      - name: Cache Database State
+        id: cache-db
+        uses: actions/cache@v4
+        with:
+          path: dump.sql
+          key: continuous-ai-db-${{ github.run_id }}
+          restore-keys: |
+            continuous-ai-db-
+
+      - name: Restore Database State
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: |
+          chmod +x scripts/restore_db.sh
+          ./scripts/restore_db.sh
+
+      - name: Initialize Database (Ensure Schema Exists)
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: python scripts/init_db.py
+
+      - name: Phase 1 - Train Models (Learn)
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: python scripts/train.py
+
+      - name: Phase 2 - Run Simulations
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: python scripts/simulate.py
+
+      - name: Phase 3 - Generate Documentation
+        run: python scripts/generate_docs.py
+
+      - name: Save Database State
+        env:
+          PGHOST: localhost
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: |
+          chmod +x scripts/dump_db.sh
+          ./scripts/dump_db.sh
+
+      - name: Commit Updated Docs and DB State
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git add docs/
+          # If we want to commit the DB state to the repo instead of just caching, we could `git add dump.sql`.
+          # But since we use GitHub actions cache, we'll just commit docs.
+
+          # Only commit if there are changes
+          git diff --staged --quiet || (git commit -m "docs: auto-generate documentation via Continuous AI" && git push)

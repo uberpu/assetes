@@ -74,3 +74,23 @@ if __name__ == '__main__':
     print(f"Simulation Complete! Model A Wins: {wins_a}, Model B Wins: {wins_b}, Ties: {ties}")
     win_rate = (wins_a / num_episodes) * 100
     print(f"Model A Win Rate: {win_rate}%")
+
+    # Append summary to simulation log
+    import datetime
+    log_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'docs')
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, 'simulation_log.md')
+
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"| {timestamp} | {num_episodes} | {win_rate:.2f}% | {wins_a} | {wins_b} | {ties} |\n"
+
+    if not os.path.exists(log_file):
+        with open(log_file, 'w', encoding='utf-8') as f:
+            f.write("# Model A (Q-Learning) Evaluation/Simulation Log\n\n")
+            f.write("*(Evaluating completely trained agent. Exploitation ONLY, no exploration (epsilon=0.0))*\n\n")
+            f.write("| Timestamp | Episodes | Model A Win Rate | Model A Wins | Model B Wins | Ties |\n")
+            f.write("|---|---|---|---|---|---|\n")
+
+    with open(log_file, 'a', encoding='utf-8') as f:
+        f.write(log_entry)
+    print(f"Appended simulation summary to {log_file}")

@@ -114,3 +114,22 @@ if __name__ == '__main__':
     # Save acquired knowledge back to Postgres
     save_q_values(agent_a.q_table)
     print("Q-table saved to DB.")
+
+    # Append summary to training log
+    import datetime
+    log_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'docs')
+    os.makedirs(log_dir, exist_ok=True)
+    log_file = os.path.join(log_dir, 'training_log.md')
+
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"| {timestamp} | {num_episodes} | {wins_a} | {wins_b} | {ties} |\n"
+
+    if not os.path.exists(log_file):
+        with open(log_file, 'w', encoding='utf-8') as f:
+            f.write("# Model A (Q-Learning) Training Log\n\n")
+            f.write("| Timestamp | Episodes | Model A Wins | Model B Wins | Ties |\n")
+            f.write("|---|---|---|---|---|\n")
+
+    with open(log_file, 'a', encoding='utf-8') as f:
+        f.write(log_entry)
+    print(f"Appended training summary to {log_file}")

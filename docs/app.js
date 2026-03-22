@@ -27,6 +27,7 @@ function init() {
     document.getElementById('reset-btn').addEventListener('click', resetGame);
     document.getElementById('logs-btn').addEventListener('click', () => loadMarkdown('training_log.md'));
     document.getElementById('docs-btn').addEventListener('click', () => loadMarkdown('q_learning_agent.md'));
+    document.getElementById('how-it-works-btn').addEventListener('click', () => loadMarkdown('HOW_IT_WORKS.md'));
 
     brainSelect.addEventListener('change', loadBrain);
 

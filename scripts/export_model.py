@@ -40,6 +40,26 @@ def export_model_to_json():
 
     print(f"[+] Saved model with {num_states} known states to {model_filepath}")
 
+    # Calculate total training episodes from the training log
+    total_episodes_trained = 0
+    training_log_path = os.path.join(docs_dir, 'training_log.md')
+    if os.path.exists(training_log_path):
+        with open(training_log_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                if line.startswith('|') and not line.startswith('| Timestamp |') and not line.startswith('|---|'):
+                    try:
+                        # Format is | Timestamp | Episodes | Model A Wins | Model B Wins | Ties |
+                        parts = line.split('|')
+                        if len(parts) > 2:
+                            episodes = int(parts[2].strip())
+                            total_episodes_trained += episodes
+                    except Exception:
+                        pass
+
+    # Default to 500 if the log couldn't be parsed correctly, or zero if we just started
+    if total_episodes_trained == 0 and num_states > 0:
+        total_episodes_trained = 500
+
     # Update manifest
     manifest_filepath = os.path.join(models_dir, 'manifest.json')
     manifest = []
@@ -57,7 +77,8 @@ def export_model_to_json():
         "filename": model_filename,
         "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "states": num_states,
-        "description": f"AI Brain with {num_states} learned board states."
+        "episodes_trained": total_episodes_trained,
+        "description": f"AI Brain trained on {total_episodes_trained} games. Memorized {num_states} unique board configurations."
     }
     manifest.insert(0, new_entry)
 

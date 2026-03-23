@@ -1,5 +1,13 @@
 [
   {
+    "id": "v20260323_205200",
+    "filename": "model_v20260323_205200.json",
+    "date": "2026-03-23 20:52:00",
+    "states": 1650,
+    "episodes_trained": 1200,
+    "description": "AI Brain trained on 1200 games. Memorized 1650 unique board configurations."
+  },
+  {
     "id": "v20260323_203602",
     "filename": "model_v20260323_203602.json",
     "date": "2026-03-23 20:36:02",

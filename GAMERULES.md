@@ -16,5 +16,3 @@ Whenever this `GAMERULES.md` file is modified and pushed, a GitHub Action is tri
 This action spins up a PostgreSQL database, restores the AI's "brain" (Q-table) from the GitHub cache, trains it for 500 more games against a random opponent, runs a simulation to test its win rate, auto-generates code documentation, and finally saves the updated brain back to the cache!
 
 > **Note on Initial Run:** The very first time this workflow runs (like right now!), the database cache does not exist. The Q-Learning agent starts completely "blank" and untrained. After 500 games, it will learn some basic strategies, but it will not be a perfect player immediately. Every subsequent commit to this file will make the agent smarter as it builds upon its past experiences!
-
-1-500 Check-in trigger test

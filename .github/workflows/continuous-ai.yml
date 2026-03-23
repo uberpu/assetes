@@ -6,6 +6,7 @@ on:
       - 'GAMERULES.md'
     branches-ignore:
       - main
+  workflow_dispatch:
 
 permissions:
   contents: write

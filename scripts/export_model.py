@@ -40,25 +40,18 @@ def export_model_to_json():
 
     print(f"[+] Saved model with {num_states} known states to {model_filepath}")
 
-    # Calculate total training episodes from the training log
+    # Query the persistent database for total training matches
     total_episodes_trained = 0
-    training_log_path = os.path.join(docs_dir, 'training_log.md')
-    if os.path.exists(training_log_path):
-        with open(training_log_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                if line.startswith('|') and not line.startswith('| Timestamp |') and not line.startswith('|---|'):
-                    try:
-                        # Format is | Timestamp | Episodes | Model A Wins | Model B Wins | Ties |
-                        parts = line.split('|')
-                        if len(parts) > 2:
-                            episodes = int(parts[2].strip())
-                            total_episodes_trained += episodes
-                    except Exception:
-                        pass
-
-    # Default to 500 if the log couldn't be parsed correctly, or zero if we just started
-    if total_episodes_trained == 0 and num_states > 0:
-        total_episodes_trained = 500
+    try:
+        conn = get_connection()
+        with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM match_results")
+            result = cur.fetchone()
+            if result:
+                total_episodes_trained = result[0]
+        conn.close()
+    except Exception as e:
+        print(f"[!] Warning: Could not calculate total episodes from database. ({e})")
 
     # Update manifest
     manifest_filepath = os.path.join(models_dir, 'manifest.json')

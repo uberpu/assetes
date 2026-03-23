@@ -1,0 +1,168 @@
+:root {
+    --bg-color: #1a1a24;
+    --text-color: #e0e0e0;
+    --primary-color: #00ffcc;
+    --secondary-color: #ff007f;
+    --board-bg: #2a2a35;
+    --cell-bg: #3a3a48;
+    --modal-bg: rgba(0, 0, 0, 0.8);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Marquee Styles */
+.marquee-container {
+    width: 100%;
+    background-color: var(--primary-color);
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    box-shadow: 0 4px 10px rgba(0, 255, 204, 0.3);
+}
+
+.marquee-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 25s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+.controls {
+    margin: 20px 0;
+    padding: 15px;
+    background: var(--board-bg);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+select, button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background: var(--cell-bg);
+    color: var(--text-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+button:hover {
+    background: var(--primary-color);
+    color: #000;
+}
+
+.status {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    min-height: 36px;
+}
+
+/* Tic Tac Toe Board */
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: var(--cell-bg);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    user-select: none;
+}
+
+.cell:hover {
+    background-color: #4a4a58;
+}
+
+.cell.x { color: var(--primary-color); }
+.cell.o { color: var(--secondary-color); }
+
+/* Modal Styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--modal-bg);
+}
+
+.modal-content {
+    background-color: var(--board-bg);
+    margin: 5% auto;
+    padding: 20px 30px;
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    max-height: 80vh;
+    overflow-y: auto;
+    color: var(--text-color);
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.4);
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: var(--secondary-color);
+}
+
+/* Simple Markdown Table Styling inside Modal */
+.markdown-body table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+.markdown-body th, .markdown-body td { border: 1px solid #4a4a58; padding: 8px; text-align: left; }
+.markdown-body th { background-color: var(--cell-bg); }
+.markdown-body pre { background: var(--cell-bg); padding: 10px; border-radius: 5px; overflow-x: auto;}
+.markdown-body code { font-family: monospace; color: var(--primary-color); }

@@ -19,4 +19,3 @@ Returns: dict mapping (state, action) to q_value.
 
 ### `record_match`
 Records a match result to the database.
-

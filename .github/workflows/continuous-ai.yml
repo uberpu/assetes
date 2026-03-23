@@ -5,7 +5,7 @@ on:
     paths:
       - 'GAMERULES.md'
     branches:
-      - main
+      - '**'
   workflow_dispatch:
 
 permissions:

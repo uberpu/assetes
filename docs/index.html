@@ -3,38 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Continuous AI Tic-Tac-Toe</title>
+    <title>Continuous AI</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-
-    <!-- Old School Marquee -->
-    <div class="marquee-container">
-        <div class="marquee-text">
-            🌟 Welcome to the Continuous AI Proof-of-Concept! 🌟 Watch as the ML Agent learns Tic-Tac-Toe through continuous automated training via GitHub Actions. 🌟 Every commit makes the AI smarter! 🌟 Challenge different brain versions! 🌟
-        </div>
-    </div>
-
     <div class="container">
         <header>
-            <h1>Continuous AI: Tic-Tac-Toe</h1>
-            <p>Select a brain level and play against an agent trained entirely by GitHub Actions.</p>
+            <h1>Continuous AI</h1>
+            <p>A minimalist Tic-Tac-Toe agent trained via GitHub Actions.</p>
         </header>
 
         <div class="controls">
-            <label for="brain-select">Select AI Brain Version:</label>
             <select id="brain-select">
                 <option value="random">Loading...</option>
             </select>
-            <button id="reset-btn">Reset Game</button>
-            <button id="logs-btn">View Training Logs</button>
-            <button id="docs-btn">View AI Docs</button>
-            <button id="how-it-works-btn">How It Works</button>
+            <button id="reset-btn">Reset</button>
+            <button id="logs-btn">Logs</button>
+            <button id="docs-btn">Docs</button>
+            <button id="how-it-works-btn">About</button>
         </div>
 
         <div class="game-area">
-            <div id="status" class="status">Your turn! You are X.</div>
+            <div id="status" class="status">Your turn (X)</div>
             <div class="board" id="board">
                 <div class="cell" data-index="0"></div>
                 <div class="cell" data-index="1"></div>

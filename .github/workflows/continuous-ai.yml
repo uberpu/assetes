@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'GAMERULES.md'
-    branches-ignore:
+    branches:
       - main
   workflow_dispatch:
 

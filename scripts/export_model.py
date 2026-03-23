@@ -40,6 +40,19 @@ def export_model_to_json():
 
     print(f"[+] Saved model with {num_states} known states to {model_filepath}")
 
+    # Query the persistent database for total training matches
+    total_episodes_trained = 0
+    try:
+        conn = get_connection()
+        with conn.cursor() as cur:
+            cur.execute("SELECT COUNT(*) FROM match_results")
+            result = cur.fetchone()
+            if result:
+                total_episodes_trained = result[0]
+        conn.close()
+    except Exception as e:
+        print(f"[!] Warning: Could not calculate total episodes from database. ({e})")
+
     # Update manifest
     manifest_filepath = os.path.join(models_dir, 'manifest.json')
     manifest = []
@@ -57,7 +70,8 @@ def export_model_to_json():
         "filename": model_filename,
         "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
         "states": num_states,
-        "description": f"AI Brain with {num_states} learned board states."
+        "episodes_trained": total_episodes_trained,
+        "description": f"AI Brain trained on {total_episodes_trained} games. Memorized {num_states} unique board configurations."
     }
     manifest.insert(0, new_entry)
 

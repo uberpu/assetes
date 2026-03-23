@@ -50,7 +50,11 @@ async function loadManifest() {
         manifest.forEach(item => {
             const option = document.createElement('option');
             option.value = `models/${item.filename}`;
-            option.textContent = `${item.id} - ${item.states} States Learned (${item.date})`;
+            // Use episodes_trained if available, otherwise fallback to states
+            const trainedStr = item.episodes_trained
+                ? `${item.episodes_trained} Games Trained (${item.states} States)`
+                : `${item.states} States Learned`;
+            option.textContent = `${item.id} - ${trainedStr} - ${item.date}`;
             brainSelect.appendChild(option);
         });
 

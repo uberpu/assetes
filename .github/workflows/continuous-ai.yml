@@ -4,7 +4,7 @@ on:
   push:
     paths:
       - 'GAMERULES.md'
-    branches-ignore:
+    branches:
       - main
   workflow_dispatch:
 
@@ -61,6 +61,13 @@ jobs:
           chmod +x scripts/restore_db.sh
           ./scripts/restore_db.sh
 
+      - name: Fetch Historical Logs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          chmod +x scripts/fetch_logs.sh
+          ./scripts/fetch_logs.sh
+
       - name: Initialize Database (Ensure Schema Exists)
         env:
           PGHOST: localhost
@@ -106,14 +113,9 @@ jobs:
           chmod +x scripts/dump_db.sh
           ./scripts/dump_db.sh
 
-      - name: Commit Updated Docs and DB State
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-
-          git add docs/
-          # If we want to commit the DB state to the repo instead of just caching, we could `git add dump.sql`.
-          # But since we use GitHub actions cache, we'll just commit docs.
-
-          # Only commit if there are changes
-          git diff --staged --quiet || (git commit -m "docs: auto-generate documentation via Continuous AI" && git push)
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: true

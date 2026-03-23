@@ -1,0 +1,55 @@
+name: Reset Continuous AI State
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  reset-ai-state:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Delete GitHub Actions Caches
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching list of caches..."
+          gh cache list --repo $GITHUB_REPOSITORY --limit 100 || echo "No caches found"
+
+          # Delete all caches with prefix continuous-ai-db-
+          cacheKeys=$(gh cache list --repo $GITHUB_REPOSITORY --limit 100 | grep "continuous-ai-db-" | cut -f 1 || echo "")
+
+          if [ -n "$cacheKeys" ]; then
+            for cacheKey in $cacheKeys; do
+              echo "Deleting cache: $cacheKey"
+              gh cache delete "$cacheKey" --repo $GITHUB_REPOSITORY || true
+            done
+            echo "Cache cleanup complete."
+          else
+            echo "No caches with prefix 'continuous-ai-db-' found."
+          fi
+
+      - name: Prepare Clean Docs Directory
+        run: |
+          echo "Cleaning docs directory to reset gh-pages branch..."
+          # Keep the static files (index.html, app.css, app.js, HOW_IT_WORKS.md)
+          # But remove generated models and logs
+          rm -rf docs/models/*
+          rm -f docs/*_log.md
+          rm -f docs/q_learning_agent.md
+          # Create an empty manifest so the frontend doesn't crash on initial load
+          mkdir -p docs/models
+          echo "[]" > docs/models/manifest.json
+
+      - name: Reset GitHub Pages (Overwrite with Clean State)
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
+          keep_files: false # This is the crucial part: it deletes old files on gh-pages!

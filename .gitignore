@@ -1,0 +1,12 @@
+# Ignore auto-generated Continuous AI artifacts
+docs/models/
+docs/*_log.md
+docs/*.md
+!docs/HOW_IT_WORKS.md
+
+# Python
+__pycache__/
+*.pyc
+
+# Local Data
+dump.sql

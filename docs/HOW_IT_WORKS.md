@@ -20,7 +20,33 @@ Whenever a developer modifies `GAMERULES.md` (or any code) and pushes to a featu
 6. **Phase 3: Auto-Documentation (`generate_docs.py`):** A custom script parses the Python Abstract Syntax Trees (AST) of the codebase, extracts docstrings and classes, and generates clean Markdown files in the `docs/` folder.
 7. **Phase 4: Model Export (`export_model.py`):** The Postgres Q-table is queried and dumped into a highly optimized JSON file (e.g., `model_v20231027_120000.json`). The `manifest.json` is updated to record this new "brain level".
 8. **State Preservation:** The entire Postgres database is dumped to `dump.sql` and saved back into the GitHub Actions Cache, securely persisting the AI's knowledge for the *next* pipeline run.
-9. **Deployment:** Finally, the GitHub Action automatically commits the generated JSON models, logs, and markdown docs back to the feature branch. When merged to `main`, GitHub Pages instantly serves the updated playable web application!
+9. **Deployment:** Finally, the GitHub Action automatically takes the `docs/` folder (the website, JSON models, and logs) and force-pushes it to a completely separate, "orphaned" branch called `gh-pages`. This keeps the `main` branch perfectly clean of heavy, auto-generated build artifacts. GitHub Pages then instantly serves the updated playable web application from that `gh-pages` branch!
+
+### The Sequential Data Flow (What Happens When You Push)
+
+```text
+1. THE TRIGGER
+[You push code to main] ➔ [GitHub Action Starts] ➔ [Spins up ephemeral Ubuntu Server]
+
+2. STATE RESTORATION (Getting the Memory)
+[Server] ➔ [Downloads Postgres Database dump.sql from GitHub Cache] ➔ [Loads AI's previous brain into Postgres]
+[Server] ➔ [Downloads historical logs & manifest from 'gh-pages' branch] ➔ [Places them in local /docs folder]
+
+3. THE WORK (Learning)
+[train.py] ➔ [AI plays 500 games] ➔ [Saves new smarter brain back to Postgres]
+[simulate.py] ➔ [AI plays 100 test games] ➔ [Appends win rate to /docs/simulation_log.md]
+[generate_docs.py] ➔ [Reads Python code] ➔ [Generates /docs/tictactoe.md]
+[export_model.py] ➔ [Extracts brain from Postgres] ➔ [Saves as /docs/models/model_v3.json]
+
+4. THE DEPLOYMENT (Saving the Work)
+[Server] ➔ [Dumps updated Postgres to dump.sql] ➔ [Saves back to GitHub Cache for next time]
+[Server] ➔ [Takes ONLY the /docs folder] ➔ [Force-pushes it to the 'gh-pages' branch]
+
+5. THE RESULT
+[main branch] ➔ Remains perfectly clean (only source code).
+[gh-pages branch] ➔ Contains all the heavy HTML, JSON brains, and Logs.
+[GitHub Pages] ➔ Automatically serves the website to the public directly from the gh-pages branch!
+```
 
 ---
 

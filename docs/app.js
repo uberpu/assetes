@@ -110,7 +110,7 @@ function makeMove(index, player) {
     checkResult(player);
     if (gameActive) {
         currentPlayer = player === 'X' ? 'O' : 'X';
-        statusDisplay.innerText = currentPlayer === 'X' ? "Your turn! You are X." : "AI is thinking...";
+        statusDisplay.innerText = currentPlayer === 'X' ? "Your turn (X)" : "AI thinking...";
     }
 }
 
@@ -165,16 +165,16 @@ function checkResult(player) {
     }
 
     if (roundWon) {
-        statusDisplay.innerText = player === 'X' ? 'You won!' : 'AI won! The training is working!';
-        statusDisplay.style.color = player === 'X' ? 'var(--primary-color)' : 'var(--secondary-color)';
+        statusDisplay.innerText = player === 'X' ? 'You won' : 'AI won';
+        statusDisplay.style.color = 'var(--text-color)';
         gameActive = false;
         return;
     }
 
     let roundDraw = !board.includes(' ');
     if (roundDraw) {
-        statusDisplay.innerText = 'Game ended in a draw!';
-        statusDisplay.style.color = '#fff';
+        statusDisplay.innerText = 'Draw';
+        statusDisplay.style.color = 'var(--text-color)';
         gameActive = false;
         return;
     }
@@ -184,7 +184,7 @@ function resetGame() {
     board = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '];
     gameActive = true;
     currentPlayer = 'X';
-    statusDisplay.innerText = "Your turn! You are X.";
+    statusDisplay.innerText = "Your turn (X)";
     statusDisplay.style.color = "var(--text-color)";
     cells.forEach(cell => {
         cell.innerText = '';

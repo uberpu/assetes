@@ -1,0 +1,47 @@
+name: Dynamic Code-Generating Game Engine
+
+on:
+  push:
+    paths:
+      - 'GAMERULES.md'
+    branches:
+      - '**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-game-environment:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: pip install openai
+
+      - name: Run Meta-Agent (Generate Game Code)
+        env:
+          ENTERPRISE_AI_KEY: ${{ secrets.ENTERPRISE_AI_KEY }}
+          # e.g., https://your-enterprise.openai.azure.com/ if using Azure
+          ENTERPRISE_AI_BASE: ${{ secrets.ENTERPRISE_AI_BASE }}
+        run: python scripts/meta_agent.py
+
+      - name: Create Pull Request with Generated Code
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "🤖 Auto-generated RL Environment and Web UI from GAMERULES.md"
+          title: "🤖 Auto-Generated Game Environment"
+          body: "The Meta-Agent detected changes to \`GAMERULES.md\` and dynamically generated a new reinforcement learning pipeline, state configuration, and minimal web UI."
+          branch: "ai-generated-game"
+          branch-suffix: "timestamp"
+          base: "main"

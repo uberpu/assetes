@@ -1,0 +1,3800 @@
+[
+  {
+    "id": "awful_021",
+    "name": "Audit report for {abstract} conducted via {lens}",
+    "template": "Audit report for {abstract} conducted via {lens}. Finding: {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}, {kern} between {morpheme} and {lexeme} is {adj}. Corrective action: {device} that {behav}. Style: {style} that files complaint against itself. [algo: {meta}]",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_022",
+    "name": "Receipt herbarium for {abstract}: pressed {graphem",
+    "template": "Receipt herbarium for {abstract}: pressed {grapheme} as {mat} {bowl}, labeled {lexeme} as {tax}, stored in {counter} that is a room where {abstract} lives. Collected via {lens} that is {lens}. Pressed by {device}. Style: {style} that is also {mat} inventory.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_023",
+    "name": "Visual theorem: If {abstract} then {lens}, therefo",
+    "template": "Visual theorem: If {abstract} then {lens}, therefore {device} must {behav}. Proof: {grapheme} with {serif} as {tax}, {bowl} as {counter} counting {abstract}, {kern} between {morpheme} and {lexeme} is {state}. The {parts} migrate as {lens}, their {baseline} is {adj}. [algo: {meta}]",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_024",
+    "name": "Forensic analysis of {abstract} as crime scene mad",
+    "template": "Forensic analysis of {abstract} as crime scene made of {parts}. {stroke} is fingerprint, {serif} is scar tissue, {bowl} is evidence bag, {counter} is room where {abstract} lived, {ligature} is alibi, {kern} is distance between two suspects, {tax} is {tax} that files complaint. Measured by {device} that is also {lens}. Style: {style} that confesses while trying to hide.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_025",
+    "name": "Blueprint for device that extracts {abstract} from",
+    "template": "Blueprint for device that extracts {abstract} from {mat} {parts}. Blueprint itself is {lens} that folds into room it describes, its {bowl} is {counter}, its {stroke} is {adj}, its {baseline} is off by one {abstract}. The {device} is drawn with {serif} made of {mat}. The building is {system} that is {state}. [device: {device}]",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_026",
+    "name": "Cross-section of hallucinated mind palace where {a",
+    "template": "Cross-section of hallucinated mind palace where {abstract} is stored as {mat} {parts}. Each chamber is a {bowl} holding {grapheme} that embodies {abstract}. Hallway is {kern} between {lexeme} and {lexeme}. Door is {ligature} that only opens if you admit {abstract}. Palace itself is {lens}. Catalogued in {tax} of {system}. Map is {style} that erases itself. Key: {device} made of {serif} and {counter}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_027",
+    "name": "Ecosystem diagram where {abstract} feeds on {abstr",
+    "template": "Ecosystem diagram where {abstract} feeds on {abstract2} which nests in {mat} {parts}. {grapheme} molts into {lexeme}, {morpheme} is parasitized by {ligature}. {kern} regulates {baseline}. The {tax} documents this as {adj} {system}. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_028",
+    "name": "The orthography that syllabizes silence: {abstract",
+    "template": "The orthography that syllabizes silence: {abstract} rendered as {lens} where each {grapheme} is {mat} {bowl} that holds absence, {counter} counts {state}, {kern} is silence between {lexeme} and {lexeme}. {tax} is {tax} that indexes things that arrived too late. Measured by {device} that only hears silence. Style: {style}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_029",
+    "name": "Nest architecture from stolen footnotes for {abstr",
+    "template": "Nest architecture from stolen footnotes for {abstract}: built from {parts} that are actually {tax} of {abstract}. Each twig is {stroke}, lining is {mat} {bowl}, entrance is {ligature} that is {behav}. Eggs are {lexeme} that will hatch into {orthography}. Incubated by {device} that is {lens}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_030",
+    "name": "Spore print as proof of {abstract}: {lens} left as",
+    "template": "Spore print as proof of {abstract}: {lens} left as {mat} {bowl} on {tax}. Its {grapheme} is {state}, its {morpheme} is {behav}, its {kern} is {adj} gap where {abstract} fell through. Collected via {device} that is also {lens}. Style: {style} that is spore print and fingerprint simultaneously.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_031",
+    "name": "Staircase that counts how many times you reconside",
+    "template": "Staircase that counts how many times you reconsidered {abstract}: each step is {grapheme}, riser is {serif}, tread is {bowl}, handrail is {ligature} that {behav}. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_032",
+    "name": "Attempted rendering of {abstract} after its {graph",
+    "template": "Attempted rendering of {abstract} after its {grapheme} learned to exist without {stroke}. The {bowl} is empty, {counter} is room, {serif} remains as {mat} scar, {ligature} holds nothing together, {kern} is infinite. {tax} is empty, {lexeme} perform {behav} out of habit. {device} reports {state} where {abstract} used to be. Style: {style} that erases as it draws.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_033",
+    "name": "Isoline map of {abstract} that only shows where {a",
+    "template": "Isoline map of {abstract} that only shows where {abstract} was misremembered. Contour lines are {stroke}, legend is {tax} that lies about its own symbols, {bowl} is sinkhole where {lexeme} fell, {kern} is distance between two apologies, {device} is {device} that triangulates {state}. Style: {style} that is also {lens}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_034",
+    "name": "Instruction manual for {device} written after {abs",
+    "template": "Instruction manual for {device} written after {abstract} broke it. Step 1: {grapheme} as {mat} {bowl}. Step 2: {lexeme} molts into {orthography}. Step 3: {kern} fails, {counter} becomes room. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_035",
+    "name": "Tarot correspondence for {abstract} \u2014 Center: {len",
+    "template": "Tarot correspondence for {abstract} \u2014 Center: {lens} made of {mat} {parts}, its {bowl} is {counter} that counts {abstract}. Top: {grapheme} in {adj} {serif}. Bottom: {morpheme} as {lexeme} that molts into {orthography}. Left border: {tax} of {system}. Right border: {device} that {behav}. Background: {style} that is {state}. Foreground: {stroke} attempting to write {kern}. Overall: {meta}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_036",
+    "name": "Dissection of {abstract} as {lens}: its {stroke} r",
+    "template": "Dissection of {abstract} as {lens}: its {stroke} rendered as {mat} {bowl}, its {serif} showing {state}, its {ligature} attempting to {behav} with {grapheme}. The {counter} is a {mat} chamber, {kern} between {lexeme} and {orthography} is {adj}, {baseline} off by one feather. {tax} holds it as {system}. Measured by {device}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_037",
+    "name": "The {adj} visual representation of the {abstract} ",
+    "template": "The {adj} visual representation of the {abstract} of glyphs as {mat} representation of substance. Everything visibly represented as the {tax} of their composite {orthography}. A visible inflection of the {state} inflection. The {behav} related to style \u2014 individual {parts} instead of full item being prey to {style} style. [device: {device}]",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_038",
+    "name": "Ledger entry for {abstract} \u2014 impossible to visual",
+    "template": "Ledger entry for {abstract} \u2014 impossible to visualize, so rendered as {lens}. Debit: {grapheme} as {mat} {bowl}. Credit: {lexeme} as {tax}. Balance: {state} residue of {behav}. The {stroke} is audit trail, {serif} is receipt, {counter} is room where {abstract} lives. Measured by {device} that balances in favors. Style: {style} that is receipt herbarium.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_039",
+    "name": "Field guide entry for {abstract} migrating through",
+    "template": "Field guide entry for {abstract} migrating through {orthography}. Observed as {lens}: {grapheme} exhibiting {behav} {state}, {parts} as {tax}, {orthography} as {adj} {system}. Collected via {device} that measures only {lens} failure. Its {bowl} is {counter} that counts {abstract}.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "awful_040",
+    "name": "Herbarium press for {abstract} \u2014 pressing {graphem",
+    "template": "Herbarium press for {abstract} \u2014 pressing {grapheme} until it becomes {lexeme}, flattening {lens} into {tax}. Its {bowl} holds {state}, its {counter} holds {behav}, its {stroke} is {adj} {mat}. Pressed by {device} that measures {lens}. Style: {style} that is {mat} and {state} simultaneously.",
+    "tags": [
+      "auto-generated",
+      "category-error",
+      "bad-device",
+      "part-whole-inversion",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax"
+    ]
+  },
+  {
+    "id": "autogen_001",
+    "name": "balance sheet that balances {abstract} \u2014 mycelial",
+    "template": "Balance sheet that balances {abstract} stored as {mat} {parts} in {bowl}. its {grapheme} is {mat} {bowl} holding {lexeme}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "accounting",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_002",
+    "name": "anatomical dissection of {abstract} \u2014 recursive",
+    "template": "Anatomical dissection of {abstract} archived as {tax}. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. {tax} catalogs this as {system}. Instrument: {device}. Style: {style} that attempts to notate the un-notatable.",
+    "tags": [
+      "ornithological",
+      "second-order",
+      "mycelial",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_003",
+    "name": "anthology of {abstract} \u2014 Crowley",
+    "template": "Anthology of {abstract} nesting in {lens}. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "part-whole-inversion",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_004",
+    "name": "autopsy report for {abstract} \u2014 Crowley",
+    "template": "Autopsy report for {abstract} after {abstract2} broke {device}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. Center {lens} made of {mat} {parts}, top {grapheme} in {serif}, bottom {morpheme} as {lexeme}. Background {style} that is {state}.",
+    "tags": [
+      "category-error",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_005",
+    "name": "tarot correspondence for {abstract} \u2014 mycelial",
+    "template": "Tarot correspondence for {abstract} feeds on {abstract2} which nests in {parts}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. its {stroke} is {adj} {counter}, {kern} between {morpheme} and {lexeme} measures {state}. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "mycelial",
+      "category-error",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_006",
+    "name": "anatomical dissection of {abstract} \u2014 Crowley",
+    "template": "Anatomical dissection of {abstract} nesting in {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "bad-device",
+      "category-error",
+      "second-order",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_007",
+    "name": "portolan chart for {abstract} \u2014 void",
+    "template": "Portolan chart for {abstract} as crime scene made of {parts}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "forensic",
+      "accounting",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_008",
+    "name": "herbarium press for {abstract} \u2014 mycelial",
+    "template": "Herbarium press for {abstract} feeds on {abstract2} which nests in {parts}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Center {lens} made of {mat} {parts}, top {grapheme} in {serif}, bottom {morpheme} as {lexeme}. Background {style} that is {state}.",
+    "tags": [
+      "accounting",
+      "category-error",
+      "ornithological",
+      "part-whole-inversion"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_009",
+    "name": "seismic reading of {abstract} \u2014 recursive",
+    "template": "Seismic reading of {abstract} that only shows where {abstract2} was misremembered. its {lexeme} molts into {orthography}, {morpheme} parasitized by {ligature}. its {parts} that are actually {tax} of {abstract}, each twig is {stroke}. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "Crowley-density",
+      "second-order",
+      "bad-device",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_010",
+    "name": "thermal image of {abstract} \u2014 mycelial",
+    "template": "Thermal image of {abstract} counted in {counter}s not numbers. its {grapheme} exhibiting {behav} {state}, {parts} as {tax}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. Each {lexeme} retains {state} charge. Assembly failure is {style}. Annotated as if measured by {device}.",
+    "tags": [
+      "bad-device",
+      "accounting",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_011",
+    "name": "mind palace floor plan for {abstract} \u2014 forensic",
+    "template": "Mind palace floor plan for {abstract} audited by {lens}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. its {parts} that are actually {tax} of {abstract}, each twig is {stroke}. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "anatomy",
+      "ornithological",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_012",
+    "name": "migration chart for {abstract} \u2014 recursive",
+    "template": "Migration chart for {abstract} counted in {counter}s not numbers. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "forensic",
+      "category-error",
+      "second-order",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_013",
+    "name": "forensic analysis of {abstract} \u2014 forensic",
+    "template": "Forensic analysis of {abstract} as glyph with {stroke} as {mat} {bowl}. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "mycelial",
+      "strange-loop",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_014",
+    "name": "visual proof that {abstract} \u2014 Crowley",
+    "template": "Visual proof that {abstract} stored as {mat} {parts} in {bowl}. its {parts} that are actually {tax} of {abstract}, each twig is {stroke}. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "strange-loop",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_015",
+    "name": "herbarium press for {abstract} \u2014 recursive",
+    "template": "Herbarium press for {abstract} audited by {lens}. its {grapheme} is {mat} {bowl} holding {lexeme}. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "category-error",
+      "accounting",
+      "strange-loop",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_016",
+    "name": "mycelial network map of {abstract} \u2014 forensic",
+    "template": "Mycelial network map of {abstract} \u2014 not objects but {lens}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. Proof via {grapheme} with {serif} as {tax}, {bowl} as {counter} counting {abstract}. The {parts} migrate as {lens}.",
+    "tags": [
+      "second-order",
+      "ornithological",
+      "Crowley-density",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_017",
+    "name": "exploded view diagram of {abstract} \u2014 forensic",
+    "template": "Exploded view diagram of {abstract} stored as {mat} {parts} in {bowl}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "category-error",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_018",
+    "name": "ledger entry for {abstract} \u2014 forensic",
+    "template": "Ledger entry for {abstract} nesting in {lens}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. Measured by {device} that balances in favors. Style: {style} that is also receipt herbarium. [algo: {meta}]",
+    "tags": [
+      "strange-loop",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_019",
+    "name": "mycelial network map of {abstract} \u2014 mycelial",
+    "template": "Mycelial network map of {abstract} measured in {kern} not {baseline}. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. Style: {style} that confesses while trying to hide. Measured by {device} that is also {lens}.",
+    "tags": [
+      "anatomy",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_020",
+    "name": "mind palace floor plan for {abstract} \u2014 recursive",
+    "template": "Mind palace floor plan for {abstract} feeds on {abstract2} which nests in {parts}. its {stroke} audits {tax}, {serif} files complaint, {counter} is room. Style: {style} that is also {lens}. [device: {device}]",
+    "tags": [
+      "category-error",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_021",
+    "name": "exploded view diagram of {abstract} \u2014 dense",
+    "template": "Exploded view diagram of {abstract} archived as {tax}. its {parts} that are actually {tax} of {abstract}, each twig is {stroke}. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "anatomy",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_022",
+    "name": "field guide entry for {abstract} \u2014 dense",
+    "template": "Field guide entry for {abstract} that only shows where {abstract2} was misremembered. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. {tax} catalogs this as {system}. Instrument: {device}. Style: {style} that attempts to notate the un-notatable.",
+    "tags": [
+      "bad-device",
+      "strange-loop",
+      "forensic",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_023",
+    "name": "seismic reading of {abstract} \u2014 void",
+    "template": "Seismic reading of {abstract} impossible to visualize so rendered as {lens}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. Style: {style} that is receipt herbarium. Measured by {device}.",
+    "tags": [
+      "bad-device",
+      "category-error",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_024",
+    "name": "life list that includes {abstract} \u2014 mycelial",
+    "template": "Life list that includes {abstract} measured in {kern} not {baseline}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Style: {style} that is spore print and fingerprint simultaneously. Collected via {device} that is also {lens}.",
+    "tags": [
+      "accounting",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_025",
+    "name": "evidence locker containing {abstract} \u2014 dense",
+    "template": "Evidence locker containing {abstract} stored as {mat} {parts} in {bowl}. its {stroke} is {adj} {counter}, {kern} between {morpheme} and {lexeme} measures {state}. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "bad-device",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_026",
+    "name": "seismic reading of {abstract} \u2014 recursive",
+    "template": "Seismic reading of {abstract} audited by {lens}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. its {stroke} audits {tax}, {serif} files complaint, {counter} is room. Style: {style} that is spore print and fingerprint simultaneously. Collected via {device} that is also {lens}.",
+    "tags": [
+      "forensic",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_027",
+    "name": "tarot correspondence for {abstract} \u2014 recursive",
+    "template": "Tarot correspondence for {abstract} as {mat} {bowl} holding {lexeme}. its {parts} that are actually {tax} of {abstract}, each twig is {stroke}. Everything visibly represented as {tax} of composite {orthography}. A visible inflection of {state} inflection. Individual {parts} instead of whole being prey to {style} style. [device: {device}]",
+    "tags": [
+      "void",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_028",
+    "name": "compendium of {abstract} \u2014 void",
+    "template": "Compendium of {abstract} \u2014 not objects but {lens}. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. its {grapheme} is {mat} {bowl} holding {lexeme}. {tax} catalogs this as {system}. Instrument: {device}. Style: {style} that attempts to notate the un-notatable.",
+    "tags": [
+      "forensic",
+      "strange-loop",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_029",
+    "name": "archive of {abstract} \u2014 dense",
+    "template": "Archive of {abstract} nesting in {lens}. its {lexeme} as {tax} that lies about its own symbols. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. Measured by {device} that balances in favors. Style: {style} that is also receipt herbarium. [algo: {meta}]",
+    "tags": [
+      "anatomy",
+      "mycelial",
+      "second-order",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_030",
+    "name": "field guide entry for {abstract} \u2014 forensic",
+    "template": "Field guide entry for {abstract} as {mat} {bowl} holding {lexeme}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. Style: {style} that erases as it draws. {device} reports {state} where {abstract} used to be.",
+    "tags": [
+      "second-order",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_031",
+    "name": "anatomical dissection of {abstract} \u2014 void",
+    "template": "Anatomical dissection of {abstract} as glyph with {stroke} as {mat} {bowl}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "ornithological",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_032",
+    "name": "migration chart for {abstract} \u2014 forensic",
+    "template": "Migration chart for {abstract} cataloged as {system}. its {stroke} is {adj} {counter}, {kern} between {morpheme} and {lexeme} measures {state}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "Crowley-density",
+      "strange-loop",
+      "bad-device",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_033",
+    "name": "audit report for {abstract} \u2014 Crowley",
+    "template": "Audit report for {abstract} after {abstract2} broke {device}. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. Measured by {device} that balances in favors. Style: {style} that is also receipt herbarium. [algo: {meta}]",
+    "tags": [
+      "Crowley-density",
+      "category-error",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_034",
+    "name": "dissection manual for {abstract} \u2014 forensic",
+    "template": "Dissection manual for {abstract} cataloged as {system}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. Map is {style} that erases itself. Key: {device} made of {serif} and {counter}.",
+    "tags": [
+      "part-whole-inversion",
+      "Crowley-density",
+      "category-error"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_035",
+    "name": "audit report for {abstract} \u2014 forensic",
+    "template": "Audit report for {abstract} feeds on {abstract2} which nests in {parts}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Collected via {device} that measures only {lens} failure. Its {bowl} is {counter} that counts {abstract}. [device: {device2}]",
+    "tags": [
+      "strange-loop",
+      "ornithological",
+      "mycelial",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_036",
+    "name": "life list that includes {abstract} \u2014 recursive",
+    "template": "Life list that includes {abstract} nesting in {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Map is {style} that erases itself. Key: {device} made of {serif} and {counter}.",
+    "tags": [
+      "category-error",
+      "anatomy",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_037",
+    "name": "forensic analysis of {abstract} \u2014 recursive",
+    "template": "Forensic analysis of {abstract} after {abstract2} broke {device}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "accounting",
+      "strange-loop",
+      "mycelial",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_038",
+    "name": "receipt herbarium for {abstract} \u2014 dense",
+    "template": "Receipt herbarium for {abstract} as {mat} {bowl} holding {lexeme}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. Style: {style} that is spore print and fingerprint simultaneously. Collected via {device} that is also {lens}.",
+    "tags": [
+      "Crowley-density",
+      "part-whole-inversion"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_039",
+    "name": "balance sheet that balances {abstract} \u2014 void",
+    "template": "Balance sheet that balances {abstract} after {abstract2} broke {device}. its {lexeme} molts into {orthography}, {morpheme} parasitized by {ligature}. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "second-order",
+      "category-error",
+      "accounting",
+      "part-whole-inversion"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_040",
+    "name": "seismic reading of {abstract} \u2014 void",
+    "template": "Seismic reading of {abstract} as {mat} {bowl} holding {lexeme}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Style: {style} that is receipt herbarium. Measured by {device}.",
+    "tags": [
+      "second-order",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_041",
+    "name": "inventory of {abstract} \u2014 mycelial",
+    "template": "Inventory of {abstract} as {mat} {bowl} holding {lexeme}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Center {lens} made of {mat} {parts}, top {grapheme} in {serif}, bottom {morpheme} as {lexeme}. Background {style} that is {state}.",
+    "tags": [
+      "Crowley-density",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_042",
+    "name": "devotional forgery of {abstract} \u2014 recursive",
+    "template": "Devotional forgery of {abstract} cataloged as {system}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "second-order",
+      "part-whole-inversion",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_043",
+    "name": "devotional forgery of {abstract} \u2014 dense",
+    "template": "Devotional forgery of {abstract} that only shows where {abstract2} was misremembered. its {grapheme} exhibiting {behav} {state}, {parts} as {tax}. Collected via {device} that measures only {lens} failure. Its {bowl} is {counter} that counts {abstract}. [device: {device2}]",
+    "tags": [
+      "second-order",
+      "forensic",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_044",
+    "name": "blueprint for device that extracts {abstract} \u2014 recursive",
+    "template": "Blueprint for device that extracts {abstract} audited by {lens}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "second-order",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_045",
+    "name": "blueprint for device that extracts {abstract} \u2014 Crowley",
+    "template": "Blueprint for device that extracts {abstract} counted in {counter}s not numbers. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "accounting",
+      "mycelial",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_046",
+    "name": "fossil record of {abstract} \u2014 recursive",
+    "template": "Fossil record of {abstract} nesting in {lens}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. its {grapheme} exhibiting {behav} {state}, {parts} as {tax}. Everything visibly represented as {tax} of composite {orthography}. A visible inflection of {state} inflection. Individual {parts} instead of whole being prey to {style} style. [device: {device}]",
+    "tags": [
+      "strange-loop",
+      "second-order",
+      "category-error",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_047",
+    "name": "deposition of {abstract} \u2014 dense",
+    "template": "Deposition of {abstract} pressing {grapheme} into {lexeme}. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "ornithological",
+      "bad-device",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_048",
+    "name": "cross-section of hallucinated mind palace where {abstract} \u2014 forensic",
+    "template": "Cross-section of hallucinated mind palace where {abstract} measured in {kern} not {baseline}. its {grapheme} is {mat} {bowl} holding {lexeme}. Style: {style} that is also {lens}. [device: {device}]",
+    "tags": [
+      "anatomy",
+      "accounting",
+      "bad-device",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_049",
+    "name": "x-ray of {abstract} \u2014 mycelial",
+    "template": "X-ray of {abstract} migrating through {orthography} as {lens}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. its {parts} suspended as {mat} {tax}, {grapheme} with {stroke} detached. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "mycelial",
+      "strange-loop",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_050",
+    "name": "thermal image of {abstract} \u2014 mycelial",
+    "template": "Thermal image of {abstract} counted in {counter}s not numbers. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. Style: {style} that confesses while trying to hide. Measured by {device} that is also {lens}.",
+    "tags": [
+      "accounting",
+      "part-whole-inversion",
+      "ornithological"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_051",
+    "name": "tide table for {abstract} \u2014 Crowley",
+    "template": "Tide table for {abstract} as crime scene made of {parts}. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. Style: {style} that confesses while trying to hide. Measured by {device} that is also {lens}.",
+    "tags": [
+      "bad-device",
+      "void",
+      "ornithological"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_052",
+    "name": "mycelial network map of {abstract} \u2014 recursive",
+    "template": "Mycelial network map of {abstract} pressing {grapheme} into {lexeme}. its {stroke} audits {tax}, {serif} files complaint, {counter} is room. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "forensic",
+      "part-whole-inversion",
+      "category-error",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_053",
+    "name": "field notes after {abstract} \u2014 recursive",
+    "template": "Field notes after {abstract} cataloged as {system}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Each {lexeme} retains {state} charge. Assembly failure is {style}. Annotated as if measured by {device}.",
+    "tags": [
+      "strange-loop",
+      "bad-device",
+      "accounting",
+      "part-whole-inversion"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_054",
+    "name": "exploded view diagram of {abstract} \u2014 dense",
+    "template": "Exploded view diagram of {abstract} as {mat} {bowl} holding {lexeme}. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Style: {style} that erases as it draws. {device} reports {state} where {abstract} used to be.",
+    "tags": [
+      "void",
+      "accounting",
+      "ornithological"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_055",
+    "name": "blueprint for device that extracts {abstract} \u2014 dense",
+    "template": "Blueprint for device that extracts {abstract} counted in {counter}s not numbers. its {lexeme} as {tax} that lies about its own symbols. its {grapheme} is {mat} {bowl} holding {lexeme}. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "bad-device",
+      "part-whole-inversion",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_056",
+    "name": "dissection manual for {abstract} \u2014 dense",
+    "template": "Dissection manual for {abstract} as {mat} {bowl} holding {lexeme}. its {parts} that are actually {tax} of {abstract}, each twig is {stroke}. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "part-whole-inversion",
+      "forensic",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_057",
+    "name": "weather map of {abstract} \u2014 mycelial",
+    "template": "Weather map of {abstract} cataloged as {system}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "void",
+      "mycelial",
+      "forensic",
+      "part-whole-inversion"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_058",
+    "name": "compass rose for {abstract} \u2014 mycelial",
+    "template": "Compass rose for {abstract} composted by {lens}. its {stroke} audits {tax}, {serif} files complaint, {counter} is room. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "mycelial",
+      "forensic",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_059",
+    "name": "spore print as proof of {abstract} \u2014 Crowley",
+    "template": "Spore print as proof of {abstract} audited by {lens}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "category-error",
+      "part-whole-inversion",
+      "accounting",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_060",
+    "name": "census of ghosts containing {abstract} \u2014 Crowley",
+    "template": "Census of ghosts containing {abstract} impossible to visualize so rendered as {lens}. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. Each {lexeme} retains {state} charge. Assembly failure is {style}. Annotated as if measured by {device}.",
+    "tags": [
+      "forensic",
+      "void",
+      "second-order",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_061",
+    "name": "devotional forgery of {abstract} \u2014 forensic",
+    "template": "Devotional forgery of {abstract} counted in {counter}s not numbers. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. Everything visibly represented as {tax} of composite {orthography}. A visible inflection of {state} inflection. Individual {parts} instead of whole being prey to {style} style. [device: {device}]",
+    "tags": [
+      "forensic",
+      "second-order",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_062",
+    "name": "catalog of failures for {abstract} \u2014 forensic",
+    "template": "Catalog of failures for {abstract} counted in {counter}s not numbers. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. Style: {style} that confesses while trying to hide. Measured by {device} that is also {lens}.",
+    "tags": [
+      "bad-device",
+      "forensic",
+      "anatomy",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_063",
+    "name": "x-ray of {abstract} \u2014 mycelial",
+    "template": "X-ray of {abstract} composted by {lens}. its {grapheme} is {mat} {bowl} holding {lexeme}. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "forensic",
+      "part-whole-inversion"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_064",
+    "name": "double-entry ledger for {abstract} \u2014 mycelial",
+    "template": "Double-entry ledger for {abstract} nesting in {lens}. its {grapheme} is {mat} {bowl} holding {lexeme}. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "category-error",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_065",
+    "name": "x-ray of {abstract} \u2014 Crowley",
+    "template": "X-ray of {abstract} impossible to visualize so rendered as {lens}. its {stroke} audits {tax}, {serif} files complaint, {counter} is room. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. Collected via {device} that measures only {lens} failure. Its {bowl} is {counter} that counts {abstract}. [device: {device2}]",
+    "tags": [
+      "forensic",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_066",
+    "name": "autopsy report for {abstract} \u2014 void",
+    "template": "Autopsy report for {abstract} counted in {counter}s not numbers. its {grapheme} exhibiting {behav} {state}, {parts} as {tax}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. Style: {style} that is spore print and fingerprint simultaneously. Collected via {device} that is also {lens}.",
+    "tags": [
+      "anatomy",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_067",
+    "name": "field guide entry for {abstract} \u2014 mycelial",
+    "template": "Field guide entry for {abstract} feeds on {abstract2} which nests in {parts}. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Each {lexeme} retains {state} charge. Assembly failure is {style}. Annotated as if measured by {device}.",
+    "tags": [
+      "second-order",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_068",
+    "name": "blueprint for device that extracts {abstract} \u2014 mycelial",
+    "template": "Blueprint for device that extracts {abstract} rendered as {lens}. its {grapheme} learned to exist without {stroke}, {bowl} empty, {counter} room. its {lexeme} as {tax} that lies about its own symbols. Measured by {device} that balances in favors. Style: {style} that is also receipt herbarium. [algo: {meta}]",
+    "tags": [
+      "ornithological",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_069",
+    "name": "dissection manual for {abstract} \u2014 mycelial",
+    "template": "Dissection manual for {abstract} after {abstract2} broke {device}. its {serif} showing {state}, {ligature} attempting to {behav} with {grapheme}. Collected via {device} that measures only {lens} failure. Its {bowl} is {counter} that counts {abstract}. [device: {device2}]",
+    "tags": [
+      "category-error",
+      "part-whole-inversion",
+      "strange-loop",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_070",
+    "name": "migration chart for {abstract} \u2014 void",
+    "template": "Migration chart for {abstract} rendered as {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Style: {style} that is receipt herbarium. Measured by {device}.",
+    "tags": [
+      "anatomy",
+      "bad-device",
+      "category-error"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_071",
+    "name": "migration chart for {abstract} \u2014 forensic",
+    "template": "Migration chart for {abstract} that only shows where {abstract2} was misremembered. its {parts} suspended as {mat} {tax}, {grapheme} with {stroke} detached. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "ornithological",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_072",
+    "name": "deposition of {abstract} \u2014 dense",
+    "template": "Deposition of {abstract} nesting in {lens}. its {grapheme} as {mat} {bowl} is {state}, {lexeme} as {tax} is {behav}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Proof via {grapheme} with {serif} as {tax}, {bowl} as {counter} counting {abstract}. The {parts} migrate as {lens}.",
+    "tags": [
+      "forensic",
+      "category-error",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_073",
+    "name": "inventory of {abstract} \u2014 mycelial",
+    "template": "Inventory of {abstract} audited by {lens}. its {counter} is a room where {abstract} lives, {ligature} only opens if you admit {abstract}. its {kern} is silence between {lexeme} and {lexeme}, {tax} indexes things that arrived too late. Style: {style} that is spore print and fingerprint simultaneously. Collected via {device} that is also {lens}.",
+    "tags": [
+      "ornithological",
+      "mycelial",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_074",
+    "name": "dissection manual for {abstract} \u2014 dense",
+    "template": "Dissection manual for {abstract} measured in {kern} not {baseline}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "forensic",
+      "bad-device",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_075",
+    "name": "tide table for {abstract} \u2014 recursive",
+    "template": "Tide table for {abstract} cataloged as {system}. its {bowl} as {counter}, its {stroke} as {adj}, its {baseline} off by one {abstract}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Style is {style} that is {mat} and {state} simultaneously. Pressed by {device} that measures {lens}.",
+    "tags": [
+      "bad-device",
+      "Crowley-density",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_076",
+    "name": "autopsy report for {abstract} \u2014 forensic",
+    "template": "Autopsy report for {abstract} after {abstract2} broke {device}. its {grapheme} learned to exist without {stroke}, {bowl} empty, {counter} room. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "category-error",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_077",
+    "name": "atlas that forgot {abstract} \u2014 mycelial",
+    "template": "Atlas that forgot {abstract} measured in {kern} not {baseline}. its {lexeme} as {tax} that lies about its own symbols. Style: {style} that confesses while trying to hide. Measured by {device} that is also {lens}.",
+    "tags": [
+      "accounting",
+      "forensic",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_078",
+    "name": "exploded view diagram of {abstract} \u2014 recursive",
+    "template": "Exploded view diagram of {abstract} migrating through {orthography} as {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "accounting",
+      "ornithological",
+      "Crowley-density"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_079",
+    "name": "compendium of {abstract} \u2014 mycelial",
+    "template": "Compendium of {abstract} nesting in {lens}. its {kern} is silence between {lexeme} and {lexeme}, {tax} indexes things that arrived too late. Proof via {grapheme} with {serif} as {tax}, {bowl} as {counter} counting {abstract}. The {parts} migrate as {lens}.",
+    "tags": [
+      "Crowley-density",
+      "anatomy",
+      "forensic",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_080",
+    "name": "catalog of failures for {abstract} \u2014 Crowley",
+    "template": "Catalog of failures for {abstract} after {abstract2} broke {device}. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Map is {style} that erases itself. Key: {device} made of {serif} and {counter}.",
+    "tags": [
+      "anatomy",
+      "mycelial"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_081",
+    "name": "triangulation of {abstract} \u2014 Crowley",
+    "template": "Triangulation of {abstract} as glyph with {stroke} as {mat} {bowl}. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. Center {lens} made of {mat} {parts}, top {grapheme} in {serif}, bottom {morpheme} as {lexeme}. Background {style} that is {state}.",
+    "tags": [
+      "ornithological",
+      "mycelial",
+      "anatomy",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_082",
+    "name": "tarot correspondence for {abstract} \u2014 dense",
+    "template": "Tarot correspondence for {abstract} \u2014 not objects but {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "mycelial",
+      "part-whole-inversion",
+      "strange-loop",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_083",
+    "name": "field guide entry for {abstract} \u2014 void",
+    "template": "Field guide entry for {abstract} nesting in {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Measured by {device} that balances in favors. Style: {style} that is also receipt herbarium. [algo: {meta}]",
+    "tags": [
+      "second-order",
+      "ornithological"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_084",
+    "name": "staircase that counts how many times you reconsidered {abstract} \u2014 Cro",
+    "template": "Staircase that counts how many times you reconsidered {abstract} composted by {lens}. its {lexeme} as {tax} that lies about its own symbols. its {stroke} is {adj} {counter}, {kern} between {morpheme} and {lexeme} measures {state}. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "category-error",
+      "anatomy",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_085",
+    "name": "bestiary entry for {abstract} \u2014 Crowley",
+    "template": "Bestiary entry for {abstract} migrating through {orthography} as {lens}. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. its {grapheme} is {state}, {morpheme} is {behav}, {kern} is {adj} gap. {tax} catalogs this as {system}. Instrument: {device}. Style: {style} that attempts to notate the un-notatable.",
+    "tags": [
+      "bad-device",
+      "category-error"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_086",
+    "name": "weather map of {abstract} \u2014 recursive",
+    "template": "Weather map of {abstract} measured in {kern} not {baseline}. its {grapheme} learned to exist without {stroke}, {bowl} empty, {counter} room. Style: {style} that is also {mat} inventory. [device: {device}]",
+    "tags": [
+      "void",
+      "forensic",
+      "accounting",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_087",
+    "name": "migration chart for {abstract} \u2014 forensic",
+    "template": "Migration chart for {abstract} measured in {kern} not {baseline}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Style: {style} that is receipt herbarium. Measured by {device}.",
+    "tags": [
+      "category-error",
+      "bad-device",
+      "accounting",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_088",
+    "name": "life list that includes {abstract} \u2014 recursive",
+    "template": "Life list that includes {abstract} migrating through {orthography} as {lens}. its {lexeme} molts into {orthography}, {morpheme} parasitized by {ligature}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. Marginalia: {lens} as {parts}. [algo: {meta}] \u2014 visual proof that {abstract} is {lens}.",
+    "tags": [
+      "void",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_089",
+    "name": "archive of {abstract} \u2014 mycelial",
+    "template": "Archive of {abstract} cataloged as {system}. its {lexeme} as {tax} that lies about its own symbols. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "anatomy",
+      "forensic",
+      "category-error"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_090",
+    "name": "fossil record of {abstract} \u2014 recursive",
+    "template": "Fossil record of {abstract} that only shows where {abstract2} was misremembered. its {grapheme} exhibiting {behav} {state}, {parts} as {tax}. Style: {style} that is receipt herbarium. Measured by {device}.",
+    "tags": [
+      "category-error",
+      "mycelial",
+      "bad-device"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_091",
+    "name": "evidence locker containing {abstract} \u2014 Crowley",
+    "template": "Evidence locker containing {abstract} impossible to visualize so rendered as {lens}. its {grapheme} exhibiting {behav} {state}, {parts} as {tax}. its {lexeme} molts into {orthography}, {morpheme} parasitized by {ligature}. Measured by {device} that balances in favors. Style: {style} that is also receipt herbarium. [algo: {meta}]",
+    "tags": [
+      "anatomy",
+      "ornithological",
+      "strange-loop",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_092",
+    "name": "isoline map that only shows where {abstract} \u2014 forensic",
+    "template": "Isoline map that only shows where {abstract} audited by {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "forensic",
+      "anatomy",
+      "category-error",
+      "second-order"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_093",
+    "name": "x-ray of {abstract} \u2014 mycelial",
+    "template": "X-ray of {abstract} pressing {grapheme} into {lexeme}. its {grapheme} learned to exist without {stroke}, {bowl} empty, {counter} room. its {bowl} holds {state}, {counter} holds {behav}, {stroke} is {adj} {mat}. Contour lines are {stroke}, legend is {tax} that lies, {bowl} is sinkhole where {lexeme} fell. Style {style}.",
+    "tags": [
+      "ornithological",
+      "second-order",
+      "strange-loop",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_094",
+    "name": "triangulation of {abstract} \u2014 Crowley",
+    "template": "Triangulation of {abstract} as glyph with {stroke} as {mat} {bowl}. its {lexeme} as {tax} that lies about its own symbols. Style: {style} that is also {lens}. [device: {device}]",
+    "tags": [
+      "ornithological",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_095",
+    "name": "balance sheet that balances {abstract} \u2014 Crowley",
+    "template": "Balance sheet that balances {abstract} composted by {lens}. its {bowl} is {counter} that counts {abstract}, its {serif} is {mat} scar. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Style: {style} that erases as it draws. {device} reports {state} where {abstract} used to be.",
+    "tags": [
+      "category-error",
+      "part-whole-inversion",
+      "Crowley-density",
+      "void"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_096",
+    "name": "archive of {abstract} \u2014 forensic",
+    "template": "Archive of {abstract} composted by {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. Regulated by {device} and {device2} that measure each other's failure. Style is {style} that {meta}.",
+    "tags": [
+      "forensic",
+      "category-error"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_097",
+    "name": "thermal image of {abstract} \u2014 void",
+    "template": "Thermal image of {abstract} after {abstract2} broke {device}. its {baseline} off by one feather, {bowl} showing {counter}, {ligature} untied. Map is {style} that erases itself. Key: {device} made of {serif} and {counter}.",
+    "tags": [
+      "second-order",
+      "accounting",
+      "mycelial",
+      "forensic"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_098",
+    "name": "devotional forgery of {abstract} \u2014 mycelial",
+    "template": "Devotional forgery of {abstract} as {mat} {bowl} holding {lexeme}. its {stroke} is fingerprint, {serif} scar tissue, {bowl} evidence bag. its {lexeme} as {tax} that lies about its own symbols. Style: {style} that is also {lens}. [device: {device}]",
+    "tags": [
+      "second-order",
+      "bad-device",
+      "strange-loop"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_099",
+    "name": "weather map of {abstract} \u2014 void",
+    "template": "Weather map of {abstract} impossible to visualize so rendered as {lens}. its {kern} fails, {counter} becomes room, {lexeme} performs {behav} out of habit. At top is {lens} that is also bottom, which is {tax} of {system}. The {device} counts steps never taken. Style: {style} that is strange loop.",
+    "tags": [
+      "second-order",
+      "accounting"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  },
+  {
+    "id": "autogen_100",
+    "name": "mycelial network map of {abstract} \u2014 forensic",
+    "template": "Mycelial network map of {abstract} that only shows where {abstract2} was misremembered. its {lexeme} molts into {orthography}, {morpheme} parasitized by {ligature}. Warning: {behav} {parts} instead of whole being prey to {style}. Appendix: {tax} of {system} that indexes its own failure. [algo: {meta}]",
+    "tags": [
+      "category-error",
+      "bad-device",
+      "anatomy"
+    ],
+    "required_placeholders": [
+      "abstract",
+      "lens",
+      "grapheme",
+      "device",
+      "bowl",
+      "tax",
+      "stroke",
+      "counter"
+    ],
+    "adj_pool": [
+      "mycelial",
+      "migratory",
+      "ectoplasmic",
+      "thermodynamic",
+      "oneiric",
+      "self-cannibalizing",
+      "isomorphic to omission",
+      "complex",
+      "intricate",
+      "layered",
+      "residual",
+      "liminal"
+    ]
+  }
+]
